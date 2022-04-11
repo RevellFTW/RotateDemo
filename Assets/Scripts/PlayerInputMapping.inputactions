@@ -1,0 +1,274 @@
+{
+    "name": "PlayerInputMapping",
+    "maps": [
+        {
+            "name": "Navigation",
+            "id": "93642528-a1db-4b11-b0a0-a037e8ec04b3",
+            "actions": [
+                {
+                    "name": "Rotate_Player",
+                    "type": "Value",
+                    "id": "4dd6ec75-7326-424b-a3fd-493303dd836b",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotate_Toggle",
+                    "type": "Button",
+                    "id": "98edcb91-c42e-42e5-a373-389eb1fcd626",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Zoom_Player",
+                    "type": "Value",
+                    "id": "459f330c-6466-415e-9f59-a46728be1cdb",
+                    "expectedControlType": "Double",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Click_Player",
+                    "type": "Button",
+                    "id": "c08e1ed5-96d2-4ac9-aed5-20d74594d86d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "FullScreen",
+                    "type": "Button",
+                    "id": "682c16a1-b3ca-43e5-a7a9-4628053f1e0e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SetPosition",
+                    "type": "Value",
+                    "id": "be88d68f-ccbe-4a79-a860-286eb6f1dc57",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PinchZoomPos1",
+                    "type": "Value",
+                    "id": "bca035ab-c8d3-4bc4-8c38-0fd7404b819d",
+                    "expectedControlType": "Touch",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PinchZoomPos2",
+                    "type": "Value",
+                    "id": "2cac5429-c27d-4bda-8bf8-388c8ca92abc",
+                    "expectedControlType": "Touch",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2b67a386-205c-4f4a-8a80-0057b22d4ef5",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse",
+                    "action": "Rotate_Player",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "872cc49a-f1ca-4f9e-86d8-9206488b72f7",
+                    "path": "<Touchscreen>/primaryTouch/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "TouchScreen",
+                    "action": "Rotate_Player",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eaf7dd45-8e55-4bda-9b6f-1a294fc9e1b6",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse",
+                    "action": "Rotate_Toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a717d9b9-a6e8-4910-8963-e81536fc802d",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "TouchScreen",
+                    "action": "Rotate_Toggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d6a6487c-722d-49b6-9345-efafe49b9966",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "Mouse",
+                    "action": "Click_Player",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0f826938-f357-473c-acbe-321c101eb139",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "TouchScreen",
+                    "action": "Click_Player",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "408b8676-839f-4577-84af-9b4e7c777b8d",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse",
+                    "action": "Zoom_Player",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dc150f57-c1c8-4966-bdfe-2f44f22ad732",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Mouse",
+                    "action": "SetPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bb1817ac-30c0-4a3e-a6be-e5c54e42da1a",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "TouchScreen",
+                    "action": "SetPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Two Modifiers",
+                    "id": "6a9381da-b51b-4f03-8ac3-62cbba64da6f",
+                    "path": "TwoModifiers",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PinchZoomPos1",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "02c3c0b7-901b-402c-afe9-0edb5e6cc695",
+                    "path": "<Touchscreen>/touch0",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "TouchScreen",
+                    "action": "PinchZoomPos1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "11fb3966-4231-42bd-a49b-b8d114356aa9",
+                    "path": "<Touchscreen>/touch1",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "TouchScreen",
+                    "action": "PinchZoomPos2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Two Modifiers",
+                    "id": "3c7ace31-1028-4bbc-b141-3de7e5617462",
+                    "path": "TwoModifiers",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "TouchScreen",
+                    "action": "PinchZoomPos2",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7f52a5be-621b-433f-8901-b9d5ed4eeeb5",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "Mouse",
+                    "action": "FullScreen",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fd3104e2-ffa8-4ab3-97bd-2320e6a98d85",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "TouchScreen",
+                    "action": "FullScreen",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Mouse",
+            "bindingGroup": "Mouse",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "TouchScreen",
+            "bindingGroup": "TouchScreen",
+            "devices": [
+                {
+                    "devicePath": "<Touchscreen>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
